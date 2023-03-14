@@ -1,0 +1,32 @@
+#containerSobreApatx{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+#containerSobreApatxPeque{
+    max-width: 55.4375rem !important;
+    margin: auto;
+
+}
+
+#containerSobreMi{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#containerSobreMiPeque{
+    max-width: 55.4375rem !important;
+    margin: auto;
+}
+
+#containerSobreMi{
+    
+}
+
+.sobreMiEtiquetas{
+    color:rgb(205,133,63);
+    font-size: large;
+    font-weight: bold;
+    
+}

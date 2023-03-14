@@ -1,0 +1,64 @@
+.allContainer{
+    position: relative;
+    margin: 0 auto;
+    max-width: 71.25em;
+    width: 100%;  
+}
+
+.panelContainer{ 
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 40%);
+    background-color: white;
+    padding: 2rem;
+    max-width: 100%;
+}
+
+.imghomecarta{
+    height: auto;
+    width: 100% !important;
+}
+
+@media screen and (min-width: 65rem){
+    .allContainer{
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+    }
+    .panelContainer {
+        transform: translateY(-50%);
+        position: absolute;
+        top: 50%;
+        max-width: 22.1875rem;
+        right: 1.875rem;
+    }
+    .imgContainer{
+        width: 960px;
+        height: 540px;
+    }
+    .imghomecarta{
+        border-radius: 0.25rem;
+        width: 960px;
+        height: 540px;
+    }
+
+    .homeCartaContainer{
+        padding: 2.5rem 0;
+    }
+}
+
+.buttonPanel{
+    width: 100%;
+    background-color: rgba(0,128,0,0.3);
+    color: #474543;
+    text-transform: uppercase;
+    text-decoration:none;
+
+    max-width: 100%;
+    padding: 0.6875rem 3.75rem;
+    position: relative;
+    text-align: center;
+
+    transition: background 0.3s ease-in-out;
+}
+.buttonPanel:hover {
+    background-color: rgba(0,128,0,0.7);
+  }

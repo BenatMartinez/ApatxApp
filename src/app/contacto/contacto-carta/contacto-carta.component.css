@@ -1,0 +1,39 @@
+.borderContactos{
+    width: 100%;
+    height: 100%;
+  
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 50%);
+}
+
+.informacion .imagen {
+    padding: 1rem 0;
+    background-color: rgba(255,247,228);
+}
+
+.alkateaAuzoetanImg {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.informacion .texto {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.alkateaAuzoetanNoForm {
+    max-width: 100%;
+}
+
+.noPaddingnoMargin{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+.anteriores{
+    padding-right: 10px;
+    padding-left: 10px;
+}

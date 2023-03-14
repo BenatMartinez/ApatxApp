@@ -1,0 +1,17 @@
+.containerimghomecarta{
+    text-align: center;
+}
+.imghomecarta{
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px){
+    .containerimghomecarta{
+        text-align: center;
+    }
+    .imghomecarta{
+        height: auto;
+        width: 100% !important;
+    }
+}

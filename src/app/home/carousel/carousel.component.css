@@ -1,0 +1,59 @@
+#cf {
+    position:relative;
+    height:700px;
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 1040px){
+    #cf {
+        margin-bottom: 0px;
+      }
+}
+
+  #cf img:nth-of-type(1) {
+    animation-delay: 15s;
+  }
+  #cf img:nth-of-type(2) {
+    animation-delay: 10s;
+  }
+  #cf img:nth-of-type(3) {
+    animation-delay: 5s;
+  }
+  #cf img:nth-of-type(4) {
+    animation-delay: 0s;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+  }
+  
+  @keyframes cf3FadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    20% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+
+
+  

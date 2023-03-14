@@ -1,0 +1,9 @@
+
+<app-carousel></app-carousel>
+
+<div class="containerimghomecarta">
+    <img class="imghomecarta" src="assets/inicio/portada.png" width="1280" height="271">
+</div>
+<div *ngFor="let data of myData; index as i" [attr.data-index]="i">
+    <app-home-carta [data]="data"></app-home-carta>
+</div>

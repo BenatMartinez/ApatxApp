@@ -1,0 +1,28 @@
+<div class="homeCartaContainer" *ngIf="data.i% 2 != 0">
+    <div class="allContainer">
+        <div class="imgContainer">
+            <img class="imghomecarta" src="assets/{{ data.img }}" width="960" height="540">
+        </div>
+        <div style="clear:both;"></div>
+        <div class="panelContainer">
+            <h5>{{ data.titulo }}</h5>
+            <p>{{ data.content }}</p>
+            <a class="buttonPanel" routerLink="/{{ data.buttonUrl }}">{{ data.button }}</a>
+        </div>
+    </div>
+</div>
+
+<div class="homeCartaContainer" *ngIf="data.i% 2 == 0">
+    <div class="allContainer">
+        <div style="float: right;" class="imgContainer">
+            <img class="imghomecarta" src="assets/{{ data.img }}" width="960" height="540">
+        </div>
+        <div style="clear:both;"></div>
+        <div style="left: 1.875rem;" class="panelContainer">
+            <h5>{{ data.titulo }}</h5>
+            <p>{{ data.content }}</p>
+            <a class="buttonPanel" routerLink="/{{ data.buttonUrl }}">{{ data.button }}</a>
+        </div>
+    </div>
+</div>
+

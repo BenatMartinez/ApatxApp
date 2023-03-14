@@ -1,0 +1,18 @@
+#tituloServicios{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#containerServicios{
+    max-width: 100% !important;
+    
+}
+.container{
+    max-width: 55.4375rem !important; 
+    margin: 20px auto 40px auto;
+}
+@media (min-width: 1600px){
+.col-xxxl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}

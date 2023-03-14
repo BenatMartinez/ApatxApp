@@ -1,0 +1,14 @@
+.introContacto{
+    max-width: 55.4375rem !important; 
+    margin: 20px auto 40px auto;
+}
+
+#containerContactos{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.containerCartaContactos{
+    padding-bottom: 20px;
+}
+

@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap";
+
+body{ 
+    margin:0; 
+    padding:0; 
+    border:0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    /* background-color: rgb(0,128,0,0.05); */
+    
+    background-color: #fcf8ee;
+
+    font-family: "Open Sans","Helvetica Neue Light","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#divHeader{
+    background-color: white;
+}
+
+#divRouter{
+    background-color: #fcf8ee;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.container{
+    max-width: 100% !important;
+}
+
+.tituloSeccion{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#imgCabecera {
+    position:relative;
+    height:600px;
+    width:100%;
+    overflow: hidden;
+
+    margin-bottom: calc(var(--bs-gutter-x) * 1);
+
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+
+    -o-background-size: 100% 100%; /*opera*/
+
+    -webkit-background-size: 100% 100%; /*Safari*/
+
+    background-size: 100% 100%; /*estandar css3*/
+
+    opacity: 0.8;
+  }
+
+.introContainer{
+    max-width: 55.4375rem !important;
+    margin: 20px auto 40px auto;
+}
+  
